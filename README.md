@@ -15,4 +15,6 @@ In this paper, we study the performance of three routing protocols in establishi
 
 `generate_graphs_for_compare.py` generates standard graphs (e.g. complete graph, star graph, complete bipartite graph) for comparison with real networks.
 
+`heatmap` quantifies and visualises how time cost of link generation depends on link length and swapping probability.
+
 `trimmed_iters_funcs.py` exists for JIT compiler parallelization (`numba`).
